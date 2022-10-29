@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"LADES-Bot"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,27 +51,37 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"LADES-Bot"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"LADES-Bot;LADES-Bot;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"905396978235,41764185118,905443459652,905304024610,905444122947"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":"Şu kadar zamandır çalışıyorum {uptime}"
+        },
+	"ALLOWED": {
+            "description": "Number",
+            "required": false,
+            "value":"90"
+        },
+	"LANGUAGE": {
+            "description": "Language",
+            "required": false,
+            "value":"turkish"
         },
        "SESSION": {
             "description": "Your MD session",
